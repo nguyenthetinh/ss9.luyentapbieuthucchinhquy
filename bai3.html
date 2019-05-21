@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let str="Anh Nguyen The Tinh Dep zai";
+    nguyenam_trongTienganh=/[aeiou]/ig;
+    phuam_trongTienganh=/[^aeiou]/ig;
+    let a=str.match(nguyenam_trongTienganh);
+    let b=str.match(phuam_trongTienganh);
+    console.log("nguyen am la: "+a);
+    console.log("phu am la: "+b);
+</script>
+</body>
+</html>

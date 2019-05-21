@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra chuỗi đưa vào có đúng dạng dd/mm/yyyy</title>
+</head>
+<body>
+<script>
+    function kiemtra(date) {
+        btm=/^[0-9]{2}[/][0-9]{2}[/][0-9]{4}$/;
+        if (btm.test(date)){
+            console.log(date+" : " +"hop le")
+        } else {
+            console.log(date+" : "+" khong hop le")
+        }
+    }
+    let date="02/07/1995";
+    let date1="02/57-1889";
+    kiemtra(date);
+    kiemtra(date1);
+</script>
+</body>
+</html>

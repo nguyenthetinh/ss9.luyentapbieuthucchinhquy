@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function kiemtra(masoket) {
+        a = /^[0-9]{6}$/;
+        if (a.test(masoket)) {
+            console.log(masoket + " : ma so hop le")
+        } else {
+            console.log(masoket + " : ma so khong hop le")
+        }
+    }
+    let maso1="213465346";
+    let maso2="asda23";
+    let maso3="128459";
+    kiemtra(maso1);
+    kiemtra(maso2);
+    kiemtra(maso3);
+</script>
+</body>
+</html>
